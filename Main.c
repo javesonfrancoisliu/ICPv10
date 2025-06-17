@@ -12,14 +12,11 @@
 
 #define ADMIN_FILE "admins.txt" // Defines a constant for the admin data filename.
 
-// Test
-
 void mainSystemMenu(int *loggedInStatus, int *keepRunningApp, const char *currentAdminID); // Declares the main menu function.
 int handleLogin(char *loggedInAdminID); // Declares the function to handle admin login.
 int verifyAdminCredentials(const char *adminID, const char *password); // Declares the function to check admin ID and password.
 void getStringInput(const char *prompt, char *buffer, int buffer_size); // Declares a helper function to get string input safely.
 int getIntegerInput(const char *prompt); // Declares a helper function to get integer input safely.
-
 
 int main() // The main function where the program starts execution.
 {
