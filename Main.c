@@ -56,7 +56,6 @@ int main() // The main function where the program starts execution.
     return 0; // Returns 0 to indicate the program finished successfully.
 }
 
-
 void mainSystemMenu(int *loggedInStatus, int *keepRunningApp, const char *currentAdminID) // Function to display and handle the main menu.
 {
     int choice; // Declares a variable to store the user's menu choice.
